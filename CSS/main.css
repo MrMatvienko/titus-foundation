@@ -40,19 +40,19 @@ img {
   list-style: none;
 }
 .container {
-  max-width: 1240px;
   padding: 0px 100px;
 }
 .hero {
+  position: relative;
   height: 894px;
   background-image: url(../assets/image/hero-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header {
-  width: 100%;
   height: 127px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background: linear-gradient(
     180deg,
@@ -62,21 +62,32 @@ img {
   opacity: 0.9;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 6px;
 }
-.header-logo {
-  padding-left: 100px;
-  margin-right: 112px;
-  z-index: 12;
-}
+
 .header-list {
   display: flex;
   align-items: center;
   gap: 48px;
 }
+.vector-header-list {
+  margin-left: 8px;
+  display: unset;
+}
+.header-contacts {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white-1);
+}
+.vector-contact {
+  margin-left: 8px;
+  cursor: pointer;
+}
 .header-list-item {
   color: white;
   cursor: pointer;
 }
-
+.contact-wraper {
+  display: flex;
+}
 .hero-info {
   padding-left: 100px;
   max-width: 846px;
@@ -99,10 +110,19 @@ img {
   line-height: 150%;
   color: white;
 }
+.hero-red-line {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  width: 975px;
+  height: 16px;
+  background: var(--red-main);
+}
 .section-mission {
   position: relative;
   padding-top: 112px;
-  width: 100%;
+  padding-bottom: 17px;
   height: 455px;
 }
 .missions-svg {
@@ -114,6 +134,7 @@ img {
   top: 0; /* Встановлюємо позицію зверху */
   left: 0;
   margin-top: 140px;
+  margin-left: 100px;
 }
 .mission-title {
   width: 221px;
@@ -124,7 +145,7 @@ img {
 }
 .mission-list {
   margin-left: 353px;
-  max-width: 875px;
+  width: 875px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -136,6 +157,7 @@ img {
   color: var(--black);
   max-width: 397px;
 }
+
 .red-line-main {
   width: 180px;
   height: 2px;
@@ -146,4 +168,67 @@ img {
   height: 2px;
   background: var(--red-main);
   margin-bottom: 8px;
+}
+.activity-section {
+  background: var(--black-bg);
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.activity-section-title {
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--white-1);
+}
+.activity-galery {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.galery-first {
+  width: 397px;
+  height: 525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/image/img1.jpg);
+  box-shadow: 2px 5px 11px 4px rgba(91, 91, 91, 0.15);
+}
+.galery-third {
+  display: flex;
+  gap: 24px;
+}
+.galery-third-one {
+  width: 393px;
+  height: 248px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/image/img2.jpg);
+  box-shadow: 2px 5px 11px 4px rgba(91, 91, 91, 0.15);
+}
+.galery-third-two {
+  width: 393px;
+  height: 248px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/image/img3.jpg);
+  box-shadow: 2px 5px 11px 4px rgba(91, 91, 91, 0.15);
+}
+.galery-four {
+  width: 811px;
+  height: 265px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  background-image: url(../assets/image/img4.jpg);
+  box-shadow: 2px 5px 11px 4px rgba(91, 91, 91, 0.15);
+}
+.galery-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--white-1);
 }

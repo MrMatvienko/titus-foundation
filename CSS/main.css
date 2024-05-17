@@ -262,3 +262,63 @@ img {
   line-height: 150%;
   color: var(--white-1);
 }
+.biografy-section {
+  padding-top: 140px;
+  padding-bottom: 180px;
+  display: flex;
+  justify-content: center;
+}
+.biografy-wraper {
+  max-width: 100%;
+}
+.biografy-title {
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-bottom: 56px;
+}
+.biografy-wraper2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 172px;
+}
+.biografy-text {
+}
+.bografy-list {
+  max-width: 503px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.biografy-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+}
+.title-more-info {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--black);
+}
+.biografy-poster {
+  position: relative;
+  display: inline-block;
+}
+.biografy-poster img {
+  display: block;
+}
+.title-name {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--black);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  margin: 0;
+  padding: 8px;
+}

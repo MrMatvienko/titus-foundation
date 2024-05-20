@@ -342,3 +342,126 @@ img {
   margin: 0;
   padding: 8px;
 }
+
+.footer {
+  background-color: var(--black-bg);
+  padding: 64px 158px 8px 158px;
+}
+.footer-wraper {
+  width: 100%;
+  height: 297px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.footer-contact-wraper {
+  height: 154px;
+}
+.footer-contact-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--white-1);
+  margin-bottom: 40px;
+}
+.footer-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.footer-address-link {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--white-1);
+}
+.footer-social {
+  height: 98px;
+  margin-top: 84px;
+}
+.footer-social-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--white-1);
+  margin-bottom: 32px;
+}
+.footer-socia-list {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.footer-question {
+  max-width: 256px;
+  margin-top: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-question-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--white-1);
+  margin-bottom: 13px;
+  align-self: flex-start;
+}
+.question-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.question-input-name {
+  border-radius: 3px;
+  padding: 10px 220px 9px 8px;
+  margin-bottom: 8px;
+  background: var(--white-2);
+}
+.question-input-name::placeholder {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--grey);
+}
+.question-textarea {
+  border-radius: 3px;
+  padding: 9px 174px 42px 9px;
+  background: var(--white-2);
+  resize: none;
+}
+.question-textarea::placeholder {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--grey);
+}
+.footer-button-form {
+  width: 163px;
+  padding: 11px 32px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-1);
+  background-color: var(--red-main);
+  border: none;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer-text-item {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--white-2);
+}

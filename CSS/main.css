@@ -7,9 +7,7 @@
   --grey: #7b7b7b;
   --brown: #34312d;
   --grey-bg: #caced1;
-}
 
-:root {
   --font-family: "Montserrat", sans-serif;
   --second-family: "Inter", sans-serif;
   --third-family: "SF Pro Text", sans-serif;
@@ -183,7 +181,6 @@ img {
 }
 
 .red-line-main {
-  align-self: flex-start;
   width: 180px;
   height: 2px;
   background: var(--red-main);
@@ -279,6 +276,8 @@ img {
   line-height: 150%;
   color: var(--white-1);
 }
+/* -------------------BIOGRAFY-SECTION-------------------- */
+
 .biografy-section {
   padding-top: 140px;
   padding-bottom: 180px;
@@ -342,7 +341,92 @@ img {
   margin: 0;
   padding: 8px;
 }
+/* -------------------ABOUT-SECTION-------------------- */
+.about-section {
+  padding-top: 70px;
+  padding-bottom: 140px;
+}
+.main-title-about {
+  margin-bottom: 40px;
+}
+.about-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.about-news-wraper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.about-news-first {
+  padding: 24px 24px 54px 24px;
+  width: 503px;
+  height: 556px;
+  display: flex;
+  flex-direction: column;
 
+  background: var(--black-bg);
+}
+.news-first-title-wraper {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 9px;
+}
+.news-logo-img {
+  border: 0.5px solid #000;
+  border-radius: 5px;
+}
+.title-news {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--white-1);
+}
+.newspaper-img {
+  border: 1px solid #000;
+  width: 455px;
+  height: 276px;
+  margin-bottom: 16px;
+}
+.news-description {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--white-2);
+  margin-bottom: 16px;
+}
+.date-news {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  color: var(--grey);
+  margin-bottom: 24px;
+}
+.more-news {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--grey-bg);
+}
+.news-vector-svg {
+  width: 43px;
+  height: 12px;
+  fill: var(--grey-bg);
+}
+
+.about-news-second {
+  width: 713px;
+  height: 556px;
+  background: var(--grey-bg);
+}
+
+/* ----------------------FOOTER------------------------ */
 .footer {
   background-color: var(--black-bg);
   padding: 64px 158px 8px 158px;

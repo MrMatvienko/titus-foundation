@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>TitusFoundetion</title>
     <link
       rel="stylesheet"
@@ -47,7 +50,7 @@
         </div>
       </header>
       <div class="hero-info">
-        <h1 class="hero-title">ФОНД ІМЕНІ ОТЦЯ </br> ТИТА ВОЙНАРОВСЬКОГО</h1>
+        <h1 class="hero-title">ФОНД ІМЕНІ ОТЦЯ ТИТА ВОЙНАРОВСЬКОГО</h1>
         <p class="hero-text">
           Місією Фонда Войнаровського є ресурсне посилення спільнот та
           інституцій, які сприяють становленню та розвитку креативних лідерів
@@ -142,6 +145,9 @@
               </li>
             </ul>
             <p class="title-more-info">Дізнатись більше</p>
+            <svg width="32" height="32">
+              <use href="./assets/image/sprite.svg#icon-vector-rigth"></use>
+            </svg>
           </div>
           <div class="biografy-poster">
             <img src="./assets/image/titoface.jpg" alt="tito" />
@@ -150,9 +156,8 @@
         </div>
       </div>
     </section>
-    <section class="project-section" >
-      <h2 class="project-title" >Проєкти</h2>
-
+    <section class="project-section">
+      <h2 class="project-title">Проєкти</h2>
     </section>
     <section class="team-section">
       <h2>Команда</h2>
@@ -162,47 +167,103 @@
         <li></li>
       </ul>
     </section>
-    <section class="about-section" >
-      <h2>Змі про нас</h2>
+    <section class="about-section container">
+      <div class="main-title-about">
+        <p class="about-title">Змі про нас</p>
+        <div class="red-line-main"></div>
+      </div>
+      <div class="about-news-wraper">
+        <div class="about-news-first">
+          <div class="news-first-title-wraper">
+            <img
+              class="news-logo-img"
+              src="./assets/image/logo-news.jpg"
+              alt="logo"
+              width="32"
+              height="32"
+            />
+            <h2 class="title-news">The Wall Street Journal</h2>
+          </div>
+          <img
+            class="newspaper-img"
+            src="./assets/image/newspaper.jpg"
+            alt="newspaper"
+          />
+          <h3 class="news-description">
+            Kyiv Remains Defiant After Two Years of War
+          </h3>
+          <p class="date-news">Лютий 26, 2024</p>
+          <div>
+            <p class="more-news">Переглянути статтю</p>
+            <svg class="news-vector-svg">
+              <use href="./assets/image/sprite.svg#icon-arrow"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="about-news-second"></div>
+      </div>
     </section>
     <footer class="footer">
       <div class="footer-wraper">
-        <div class="footer-contact-wraper" >
-          <h2 class="footer-contact-title" >контакти</h2>
-          <address class="footer-address" >
+        <div class="footer-contact-wraper">
+          <h2 class="footer-contact-title">контакти</h2>
+          <address class="footer-address">
             <ul class="footer-address-list">
-              <li class="address-list-item"><a href="mailto:titos@mail.com" class="footer-address-link " >mailto:titos@mail.com</a></li>
-              <li class="address-list-item"><a href="tel:+380674567398" class="footer-address-link ">+380674567398</a></li>
+              <li class="address-list-item">
+                <a href="mailto:titos@mail.com" class="footer-address-link"
+                  >mailto:titos@mail.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a href="tel:+380674567398" class="footer-address-link"
+                  >+380674567398</a
+                >
+              </li>
             </ul>
           </address>
         </div>
         <div class="footer-social">
           <p class="footer-social-title">Слiдкуйте за нами у соцмережах</p>
-          <ul class="footer-socia-list" >
+          <ul class="footer-socia-list">
             <li>
-              <svg width="36" height="36"> <use href="./assets/image/sprite.svg#icon-instagram"></use>
+              <svg width="36" height="36">
+                <use href="./assets/image/sprite.svg#icon-instagram"></use>
               </svg>
             </li>
             <li>
-              <svg width="36" height="36"> <use href="./assets/image/sprite.svg#icon-facebook"></use></svg>
+              <svg width="36" height="36">
+                <use href="./assets/image/sprite.svg#icon-facebook"></use>
+              </svg>
             </li>
             <li>
-              <svg width="36" height="36"> <use href="./assets/image/sprite.svg#icon-youtobe"></use></svg>
+              <svg width="36" height="36">
+                <use href="./assets/image/sprite.svg#icon-youtobe"></use>
+              </svg>
             </li>
           </ul>
         </div>
         <div class="footer-question">
-          <p class="footer-question-title" >Залишились питання</p>
+          <p class="footer-question-title">Залишились питання</p>
           <form class="question-form" action="">
-            <input class="question-input-name" id="name" type="text" placeholder="Ім'я">
-            <textarea class="question-textarea" id="message" placeholder="Коментар"></textarea>
+            <input
+              class="question-input-name"
+              id="name"
+              type="text"
+              placeholder="Ім'я"
+            />
+            <textarea
+              class="question-textarea"
+              id="message"
+              placeholder="Коментар"
+            ></textarea>
           </form>
-          <button class="footer-button-form" >Відправити</button>
+          <button class="footer-button-form">Відправити</button>
         </div>
       </div>
       <div class="footer-text">
         <p class="footer-text-item">@Фонд імені отця Тита Войнаровського</p>
-        <p class="footer-text-item">Всі права захищені </p>
+        <p class="footer-text-item">Всі права захищені</p>
       </div>
     </footer>
   </body>

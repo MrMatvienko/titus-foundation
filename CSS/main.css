@@ -424,6 +424,15 @@ img {
   width: 713px;
   height: 556px;
   background: var(--grey-bg);
+  padding: 16px;
+}
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.news-list-wraper {
+  display: flex;
 }
 
 /* ----------------------FOOTER------------------------ */

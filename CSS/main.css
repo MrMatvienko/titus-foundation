@@ -7,6 +7,7 @@
   --grey: #7b7b7b;
   --brown: #34312d;
   --grey-bg: #caced1;
+  --black-text: #000;
 
   --font-family: "Montserrat", sans-serif;
   --second-family: "Inter", sans-serif;
@@ -52,8 +53,8 @@ img {
   height: 894px;
   background-image: url(../assets/image/hero-image.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: top center;
 }
 .header {
   height: 127px;
@@ -341,10 +342,42 @@ img {
   margin: 0;
   padding: 8px;
 }
+/* -------------------TEAM-SECTION-------------------- */
+.team-section {
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+}
+.team-name {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--black-text);
+}
+.team-position {
+  font-family: var(--second-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--black-text);
+}
+/* .social-team {
+  color: var(--black);
+  stroke: var(--black);
+} */
 /* -------------------ABOUT-SECTION-------------------- */
 .about-section {
   padding-top: 70px;
   padding-bottom: 140px;
+  display: flex;
+  justify-content: center;
+}
+.about-wraper {
+  max-width: 1240px;
 }
 .main-title-about {
   margin-bottom: 40px;

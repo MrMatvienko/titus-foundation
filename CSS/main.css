@@ -342,13 +342,40 @@ img {
   margin: 0;
   padding: 8px;
 }
+/* -------------------PROJECT-SECTION-------------------- */
+.project-section {
+  display: flex;
+  justify-content: center;
+}
+.project-wraper {
+  max-width: 1240px;
+}
+.project-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--black);
+}
 /* -------------------TEAM-SECTION-------------------- */
 .team-section {
+  display: flex;
+  justify-content: center;
+}
+.team-wraper {
+  width: 1240px;
+}
+.team-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--black);
 }
 .team-list {
   display: flex;
-  justify-content: center;
   gap: 88px;
+  margin-left: 94px;
 }
 .team-name {
   font-family: var(--second-family);

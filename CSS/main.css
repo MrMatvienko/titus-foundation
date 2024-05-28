@@ -362,11 +362,12 @@ img {
   width: 1237px;
 }
 .project-gallery-list {
-  /* display: flex; */
-  /* gap: 72px; */
+  display: flex;
+  gap: 72px;
 }
 .project-gallery-item {
-  /* display: flex; */
+  display: flex;
+  position: relative;
   height: 535px;
   background: var(--black-bg);
 }
@@ -407,7 +408,10 @@ img {
   left: 0;
   transition: all ease 1s;
 }
-.galery-button-next {
+.button-wraper {
+  position: absolute;
+  bottom: 8px;
+  right: 262px;
 }
 
 /* -------------------TEAM-SECTION-------------------- */

@@ -47,6 +47,7 @@ img {
 }
 .container {
   padding: 0px 100px;
+  margin: 0 auto;
 }
 .hero {
   position: relative;
@@ -357,6 +358,58 @@ img {
   text-transform: uppercase;
   color: var(--black);
 }
+.project-gallery {
+  width: 1237px;
+}
+.project-gallery-list {
+  /* display: flex; */
+  /* gap: 72px; */
+}
+.project-gallery-item {
+  /* display: flex; */
+  height: 535px;
+  background: var(--black-bg);
+}
+.gallery-item {
+  display: flex;
+}
+.gallery-info {
+  width: 584px;
+  padding: 95px 29px 29px 29px;
+}
+.gallery-project-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--white-1);
+  margin-bottom: 24px;
+}
+.gallery-project-text {
+  width: 378px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white-2);
+  margin-bottom: 8px;
+}
+.gallery-project-slider {
+  width: 653px;
+  height: 534px;
+  overflow: hidden;
+}
+.gallery-memorial-project {
+  display: flex;
+  width: 2612px;
+  height: 534px;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+.galery-button-next {
+}
+
 /* -------------------TEAM-SECTION-------------------- */
 .team-section {
   display: flex;

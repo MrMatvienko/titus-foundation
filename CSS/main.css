@@ -49,22 +49,9 @@ img {
   padding: 0px 100px;
   margin: 0 auto;
 }
-.hero {
-  max-width: 1440px;
-  position: relative;
-  height: 894px;
-  background-image: url(../assets/image/hero-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  padding-top: 127px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
+
+/* -------------------HEADER-SECTION-------------------- */
+
 .header {
   position: absolute;
   top: 0;
@@ -83,10 +70,12 @@ img {
   opacity: 0.9;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 6px;
 }
-
+.header-container-content {
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+}
 .header-list {
-  margin-left: 112px;
-  margin-right: 77px;
   display: flex;
   align-items: center;
   gap: 48px;
@@ -114,12 +103,35 @@ img {
 }
 .contact-wraper {
   display: flex;
-}
-.hero-info {
-  padding-left: 100px;
-  max-width: 846px;
+  justify-content: center;
+  align-items: center;
 }
 
+.hero {
+  max-width: 2040px;
+  position: relative;
+  height: 894px;
+  background-image: url(../assets/image/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding-top: 127px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------HERO-SECTION-------------------- */
+
+.hero-info {
+  max-width: 846px;
+}
+.hero-content {
+  width: 1240px;
+}
 .hero-title {
   height: 160px;
   font-family: var(--font-family);
@@ -149,7 +161,6 @@ img {
 }
 
 /* -------------------MISSION-SECTION-------------------- */
-
 .section-mission {
   padding-top: 112px;
   padding-bottom: 17px;
@@ -377,16 +388,35 @@ img {
 }
 .project-gallery {
   width: 1237px;
+  perspective: 1000px;
+}
+.button-next-project {
 }
 .project-gallery-list {
+  position: relative;
   display: flex;
-  gap: 72px;
+  width: 2564px;
+  left: 0;
+  transition: all ease 1s;
+  transform-style: preserve-3d;
 }
 .project-gallery-item {
   display: flex;
   position: relative;
   height: 535px;
   background: var(--black-bg);
+  /* backface-visibility: hidden; */
+  transform: rotateY(90deg);
+  transition: transform 1s ease;
+}
+.project-gallery-item.next {
+  transform: rotateY(10deg); /* Поворот для наступної карточки */
+}
+.project-gallery-item.current {
+  transform: rotateY(0deg); /* Поточний елемент */
+}
+.project-gallery-item.prev {
+  transform: rotateY(-10deg); /* Поворот для попередньої карточки */
 }
 .gallery-item {
   display: flex;
@@ -433,6 +463,8 @@ img {
 
 /* -------------------TEAM-SECTION-------------------- */
 .team-section {
+  padding-top: 139px;
+  padding-bottom: 140px;
   display: flex;
   justify-content: center;
 }
@@ -457,6 +489,8 @@ img {
   font-size: 24px;
   line-height: 1.5;
   color: var(--black-text);
+  margin-bottom: 8px;
+  margin-top: 16px;
 }
 .team-position {
   font-family: var(--second-family);
@@ -465,6 +499,7 @@ img {
   font-size: 20px;
   line-height: 1.5;
   color: var(--black-text);
+  margin-bottom: 16px;
 }
 
 /* -------------------ABOUT-SECTION-------------------- */

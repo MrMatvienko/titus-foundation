@@ -405,8 +405,6 @@ img {
   position: relative;
   height: 535px;
   background: var(--black-bg);
-  /* backface-visibility: hidden; */
-  transform: rotateY(90deg);
   transition: transform 1s ease;
 }
 .project-gallery-item.next {

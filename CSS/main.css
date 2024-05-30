@@ -345,6 +345,33 @@ img {
   line-height: 150%;
   color: var(--black);
 }
+.biografy-more-arow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--black);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arow-icon-biografy {
+  width: 90%;
+  height: 90%;
+}
+.svg-container:hover,
+.svg-container:focus {
+  border: 1px solid var(--red-main);
+}
+.arow-icon-biografy:hover,
+.arow-icon-biografy:focus {
+  fill: var(--red-main);
+}
 .title-more-info {
   font-family: var(--font-family);
   font-weight: 600;
@@ -387,15 +414,18 @@ img {
   color: var(--black);
 }
 .project-gallery {
-  width: 1237px;
+  width: 1337px;
   perspective: 1000px;
+  overflow: hidden;
 }
 .button-next-project {
 }
 .project-gallery-list {
   position: relative;
   display: flex;
-  width: 2564px;
+  align-items: center;
+  gap: 0;
+  width: 2359px;
   left: 0;
   transition: all ease 1s;
   transform-style: preserve-3d;
@@ -408,13 +438,15 @@ img {
   transition: transform 1s ease;
 }
 .project-gallery-item.next {
-  transform: rotateY(10deg); /* Поворот для наступної карточки */
+  transform: rotateY(11deg);
+
+  height: 450px;
 }
 .project-gallery-item.current {
-  transform: rotateY(0deg); /* Поточний елемент */
+  transform: rotateY(0deg);
 }
 .project-gallery-item.prev {
-  transform: rotateY(-10deg); /* Поворот для попередньої карточки */
+  transform: rotateY(-11deg);
 }
 .gallery-item {
   display: flex;

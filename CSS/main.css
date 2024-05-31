@@ -262,7 +262,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: 2px 5px 11px 4px rgba(91, 91, 91, 0.15);
+  /* box-shadow: 2px 5px 11px 4px rgba(91, 91, 91, 0.15); */
   transition: padding-top 300ms ease;
   cursor: pointer;
 }

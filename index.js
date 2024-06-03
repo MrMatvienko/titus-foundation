@@ -1,3 +1,29 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const projectLinkWrapper = document.querySelector(".project-link-wraper");
+  const dropdownIcon = projectLinkWrapper.querySelector(".vector-icon-down");
+  const dropdownList = projectLinkWrapper.querySelector(".header-project-list");
+
+  dropdownIcon.addEventListener("click", function (event) {
+    event.stopPropagation();
+    dropdownList.classList.toggle("show");
+    if (dropdownIcon.classList.contains("rotated")) {
+      dropdownIcon.classList.remove("rotated");
+    } else {
+      dropdownIcon.classList.add("rotated");
+    }
+  });
+  document.addEventListener("click", function () {
+    if (dropdownList.classList.contains("show")) {
+      dropdownList.classList.remove("show");
+      dropdownIcon.classList.remove("rotated");
+    }
+  });
+
+  dropdownList.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+});
+
 let offset = 0;
 const sliderLine = document.querySelector(".gallery-memorial-project");
 

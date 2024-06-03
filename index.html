@@ -29,24 +29,33 @@
         <ul class="header-list">
           <li class="header-list-item">Патрон Фонду</li>
           <li class="header-list-item">Команда</li>
-          <li class="header-list-item">
+          <li class="header-list-item project-link-wraper">
             Проєкти
-            <img
-              class="vector-header-list"
-              src="./assets/image/vector1.svg"
-              alt="vector"
-            />
+            <svg class="vector-icon-down" width="16" heigth="16">
+              <use href="../assets/image/sprite.svg#icon-vector-down"></use>
+            </svg>
+
+            <ul class="header-project-list">
+              <li>
+                <a class="header-project-link link" href="#"
+                  >Меморіал “Хрест Героїв”</a
+                >
+              </li>
+              <li>
+                <a class="header-project-link link" href="#tit-books"
+                  >Книга «Тит Войнаровс...</a
+                >
+              </li>
+            </ul>
           </li>
 
           <li class="header-list-item">Контакти</li>
         </ul>
         <div class="contact-wraper">
           <p class="header-contacts">Зв’язатися з нами</p>
-          <img
-            class="vector-contact"
-            src="./assets/image/vector1.svg"
-            alt="vector"
-          />
+          <svg class="vector-icon-down" width="16" heigth="16">
+            <use href="../assets/image/sprite.svg#icon-vector-down"></use>
+          </svg>
         </div>
       </div>
     </header>
@@ -258,7 +267,7 @@
                 <button class="galery-button-next">next</button>
               </div>
             </li>
-            <li class="project-gallery-item next">
+            <li id="tit-books" class="project-gallery-item next">
               <div class="gallery-info">
                 <p class="gallery-project-title">
                   Книга «Тит Войнаровський — священик, політик, банкір, меценат»

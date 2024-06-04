@@ -81,16 +81,14 @@ img {
 .header-container-content {
   width: 1240px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .header-list {
   display: flex;
   align-items: center;
+  height: 24px;
   gap: 48px;
-}
-.vector-header-list {
-  margin-left: 8px;
-  display: unset;
 }
 .header-contacts {
   font-family: var(--font-family);
@@ -122,16 +120,16 @@ img {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   color: var(--white-1);
 }
 .project-link-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 .header-list-item {
-  height: 24px;
-  display: flex;
-  align-items: center;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;

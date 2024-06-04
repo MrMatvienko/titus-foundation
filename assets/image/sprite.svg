@@ -24,5 +24,12 @@
 <symbol width="16" height="9" id="icon-vector-down" viewBox="0 0 57 32">
 <path fill="none" stroke="#d6d8da" style="stroke: var(--color1, #d6d8da)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M1.778 3.556l26.667 26.667 26.667-26.667"></path>
 </symbol>
+<symbol id="icon-message" viewBox="0 0 32 32">
+<path fill="none" stroke="#f7f7f6" style="stroke: var(--color1, #f7f7f6)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M8 8h16c1.473 0 2.667 1.194 2.667 2.667v10.667c0 1.473-1.194 2.667-2.667 2.667h-16c-1.473 0-2.667-1.194-2.667-2.667v-10.667c0-1.473 1.194-2.667 2.667-2.667z"></path>
+<path fill="none" stroke="#f7f7f6" style="stroke: var(--color1, #f7f7f6)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M5.333 12l9.474 4.737c0.751 0.375 1.634 0.375 2.385 0l9.474-4.737"></path>
+</symbol>
+<symbol id="icon-telephone" viewBox="0 0 32 32">
+<path fill="none" stroke="#f7f7f6" style="stroke: var(--color1, #f7f7f6)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.4667" d="M23.609 18.276l3.531 3.531c0.475 0.475 0.475 1.245 0 1.719-2.567 2.567-6.631 2.856-9.535 0.678l-2.101-1.575c-2.325-1.743-4.39-3.809-6.133-6.133l-1.575-2.101c-2.178-2.904-1.889-6.968 0.678-9.535 0.475-0.475 1.245-0.475 1.719 0l3.531 3.531c0.521 0.521 0.521 1.365 0 1.886l-1.362 1.362c-0.216 0.216-0.27 0.547-0.133 0.821 1.582 3.165 4.148 5.73 7.313 7.312 0.274 0.137 0.604 0.083 0.821-0.133l1.362-1.362c0.521-0.521 1.365-0.521 1.886 0z"></path>
+</symbol>
 </defs>
 </svg>

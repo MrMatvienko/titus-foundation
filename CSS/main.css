@@ -156,6 +156,7 @@ img {
   align-items: center;
 }
 .header-address {
+  display: none;
   position: absolute;
   left: 0;
   top: 32px;
@@ -166,6 +167,18 @@ img {
   background: var(--black);
   opacity: 0.7;
   box-shadow: 2px 4px 11px 6px rgba(127, 124, 124, 0.07);
+}
+.header-address.show {
+  display: flex;
+}
+.icon-down {
+  margin-left: 8px;
+  fill: var(--white-2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.icon-down.rotated {
+  transform: rotate(180deg);
 }
 .header-address-list {
   display: flex;

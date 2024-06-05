@@ -24,6 +24,32 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const contactHeader = document.querySelector(".contact-wraper");
+  const dropIcon = contactHeader.querySelector(".icon-down");
+  const adressList = contactHeader.querySelector(".header-address");
+
+  dropIcon.addEventListener("click", function (event) {
+    event.stopPropagation();
+    adressList.classList.toggle("show");
+    if (dropIcon.classList.contains("rotated")) {
+      dropIcon.classList.remove("rotated");
+    } else {
+      dropIcon.classList.add("rotated");
+    }
+  });
+  document.addEventListener("click", function () {
+    if (adressList.classList.contains("show")) {
+      adressList.classList.remove("show");
+      adressList.classList.remove("rotated");
+    }
+  });
+
+  adressList.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+});
+
 let offset = 0;
 const sliderLine = document.querySelector(".gallery-memorial-project");
 

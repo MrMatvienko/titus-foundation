@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("click", function () {
     if (adressList.classList.contains("show")) {
       adressList.classList.remove("show");
-      adressList.classList.remove("rotated");
+      dropIcon.classList.remove("rotated");
     }
   });
 

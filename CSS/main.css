@@ -43,6 +43,7 @@ ul {
 img {
   display: block;
 }
+
 .link {
   text-decoration: none;
 }
@@ -199,12 +200,12 @@ img {
   color: var(--red-main);
   fill: var(--red-main);
 }
-/* .icon-address-header {
-  stroke: var(--white-1);
+.icon-address-header {
+  /* stroke: var(--white-1); */
 }
-.header-address-link .icon-address-header {
+.icon-address-header:hover {
   stroke: var(--red-main);
-} */
+}
 .hero {
   max-width: 2040px;
   position: relative;
@@ -553,27 +554,21 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
+  height: 38px;
 }
-.svg-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.arow-icon-biografy {
   width: 36px;
   height: 36px;
   border: 1px solid var(--black);
   border-radius: 50%;
   cursor: pointer;
-}
-.arow-icon-biografy {
-  width: 90%;
-  height: 90%;
-}
-.svg-container:hover,
-.svg-container:focus {
-  border: 1px solid var(--red-main);
+  transition: 300ms;
+  fill: var(--black);
 }
 .arow-icon-biografy:hover,
 .arow-icon-biografy:focus {
+  border: 1px solid var(--red-main);
   fill: var(--red-main);
 }
 .title-more-info {

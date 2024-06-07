@@ -196,15 +196,14 @@ img {
   color: var(--white-1);
   transition: 300ms;
 }
-.header-address-link:hover {
-  color: var(--red-main);
-  fill: var(--red-main);
-}
 .icon-address-header {
-  /* stroke: var(--white-1); */
+  stroke: #f7f7f6;
 }
-.icon-address-header:hover {
+.address-item:hover .icon-address-header {
   stroke: var(--red-main);
+}
+.address-item:hover .header-address-link {
+  color: var(--red-main);
 }
 .hero {
   max-width: 2040px;

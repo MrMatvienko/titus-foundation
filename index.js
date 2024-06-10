@@ -103,3 +103,36 @@ document
       }
     }
   });
+
+//-------------Link---Project---Book----------------//
+
+document.querySelectorAll(".header-project-link").forEach((link) => {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    const targetId = this.getAttribute("href").substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      const targetIndex = Array.from(items).indexOf(targetElement);
+
+      if (targetIndex > -1) {
+        items[currentIndex].classList.remove("current");
+        if (currentIndex > targetIndex) {
+          items[currentIndex].classList.add("next");
+          items[targetIndex].classList.remove("prev");
+        } else {
+          items[currentIndex].classList.add("prev");
+          items[targetIndex].classList.remove("next");
+        }
+        items[targetIndex].classList.add("current");
+
+        currentIndex = targetIndex;
+
+        const offset = currentIndex * 1237;
+        document.querySelector(".project-gallery-list").style.left =
+          -offset + "px";
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  });
+});

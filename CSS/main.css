@@ -612,7 +612,7 @@ img {
   color: var(--black);
 }
 .project-gallery {
-  width: 1337px;
+  width: 1440px;
   perspective: 1000px;
   overflow: hidden;
 }
@@ -622,7 +622,6 @@ img {
   display: flex;
   align-items: center;
   gap: 0;
-  width: 2359px;
   left: 0;
   transition: all ease 1s;
   transform-style: preserve-3d;
@@ -632,11 +631,10 @@ img {
   position: relative;
   height: 535px;
   background: var(--black-bg);
-  transition: transform 1s ease;
+  transition: transform 2s ease;
 }
 .project-gallery-item.next {
   transform: rotateY(11deg);
-
   height: 450px;
 }
 .project-gallery-item.current {
@@ -644,6 +642,7 @@ img {
 }
 .project-gallery-item.prev {
   transform: rotateY(-11deg);
+  height: 500px;
 }
 .gallery-item {
   display: flex;

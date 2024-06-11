@@ -612,11 +612,21 @@ img {
   color: var(--black);
 }
 .project-gallery {
-  width: 1440px;
+  width: 1337px;
   perspective: 1000px;
+  margin-left: 0 auto;
   overflow: hidden;
 }
-
+.button-next-project {
+  float: right;
+  fill: var(--black);
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+.button-next-project:hover {
+  background: #dad4d4;
+}
 .project-gallery-list {
   position: relative;
   display: flex;

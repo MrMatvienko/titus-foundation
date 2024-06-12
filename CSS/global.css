@@ -1,0 +1,56 @@
+:root {
+  --white-1: #f7f7f6;
+  --white-2: #d6d8da;
+  --red-main: #82071b;
+  --black: #050507;
+  --black-bg: #282829;
+  --grey: #7b7b7b;
+  --brown: #34312d;
+  --grey-bg: #caced1;
+  --black-text: #000;
+
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "SF Pro Text", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--white-1);
+}
+a {
+  text-decoration: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.container {
+  padding: 0px 100px;
+  margin: 0 auto;
+}

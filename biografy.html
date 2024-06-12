@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>biografy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/global.css" />
+    <link rel="stylesheet" href="./CSS/biografy.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header-container-content">
+        <a href="./index.html" class="header-logo">
+          <img src="./assets/image/logo-white.png" alt="logo" />
+        </a>
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a class="header-list-item" href="./index.html#biografy-link"
+              >Патрон Фонду</a
+            >
+          </li>
+          <li class="header-list-item">
+            <a class="header-list-item" href="./index.html#team-link"
+              >Команда</a
+            >
+          </li>
+          <li class="header-list-item project-link-wraper">
+            <a class="header-list-item" href="./index.html#project-link"
+              >Проєкти</a
+            >
+            <svg class="vector-icon-down" width="16" height="9">
+              <use href="./assets/image/sprite.svg#icon-vector-down"></use>
+            </svg>
+
+            <ul class="header-project-list">
+              <li>
+                <a class="header-project-link link" href="#"
+                  >Меморіал “Хрест Героїв”</a
+                >
+              </li>
+              <li>
+                <a
+                  class="header-project-link link tit-books"
+                  href="./index.html#tit-books"
+                  >Книга «Тит Войнаровс...</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="header-list-item">
+            <a class="header-list-item" href="#contact-link"> Контакти</a>
+          </li>
+        </ul>
+        <div class="contact-wraper">
+          <p class="header-contacts">Зв’язатися з нами</p>
+          <svg class="icon-down" width="16" height="9">
+            <use href="./assets/image/sprite.svg#icon-vector-down"></use>
+          </svg>
+          <address class="header-address">
+            <ul class="header-address-list">
+              <li class="address-item">
+                <a href="mailto:titos@mail.com" class="header-address-link">
+                  <svg class="icon-address-header" width="24" height="24">
+                    <use href="./assets/image/sprite.svg#icon-message"></use>
+                  </svg>
+                  mailto:titos@mail.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tel:+380674567398" class="header-address-link">
+                  <svg class="icon-address-header" width="24" height="24">
+                    <use href="./assets/image/sprite.svg#icon-telephone"></use>
+                  </svg>
+                  +380674567398</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer id="contact-link" class="footer">
+      <div class="footer-wraper">
+        <div class="footer-contact-wraper">
+          <h2 class="footer-contact-title">контакти</h2>
+          <address class="footer-address">
+            <ul class="footer-address-list">
+              <li class="address-list-item">
+                <a href="mailto:titos@mail.com" class="footer-address-link"
+                  >mailto:titos@mail.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a href="tel:+380674567398" class="footer-address-link"
+                  >+380674567398</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <p class="footer-social-title">Слiдкуйте за нами у соцмережах</p>
+          <ul class="footer-socia-list">
+            <li>
+              <svg width="36" height="36">
+                <use href="./assets/image/sprite.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="36" height="36">
+                <use href="./assets/image/sprite.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="36" height="36">
+                <use href="./assets/image/sprite.svg#icon-youtobe"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-question">
+          <p class="footer-question-title">Залишились питання</p>
+          <form class="question-form" action="#">
+            <input
+              class="question-input-name"
+              id="name"
+              type="text"
+              placeholder="Ім'я"
+            />
+            <textarea
+              class="question-textarea"
+              id="message"
+              placeholder="Коментар"
+            ></textarea>
+          </form>
+          <button class="footer-button-form">Відправити</button>
+        </div>
+      </div>
+      <div class="footer-text">
+        <p class="footer-text-item">@Фонд імені отця Тита Войнаровського</p>
+        <p class="footer-text-item">Всі права захищені</p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

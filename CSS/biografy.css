@@ -1,10 +1,20 @@
+.container {
+  padding-left: 100px;
+  padding-right: 124px;
+}
+.red-line {
+  width: 180px;
+  height: 2px;
+  background: var(--red-main);
+  margin-bottom: 8px;
+}
+
 .header {
   width: 100%;
   height: 127px;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
   background: linear-gradient(
     180deg,
     rgba(19, 15, 16, 0.75) 0%,
@@ -142,6 +152,50 @@
 }
 .address-item:hover .header-address-link {
   color: var(--red-main);
+}
+/*-------------------OUR-PATRON-SECTION----------------*/
+
+.our-patron {
+  display: flex;
+  gap: 96px;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.patron-info-wraper {
+  max-width: 579px;
+}
+.title-wraper {
+  margin-bottom: 40px;
+}
+.patron-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.patron-second-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 32px;
+}
+.our-peatron-text {
+  max-width: 503px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+  margin-bottom: 16px;
+}
+.tit-img-patron {
+  width: 486px;
+  height: 494px;
+  margin-top: 143px;
 }
 
 /* ----------------------FOOTER------------------------ */

@@ -319,3 +319,11 @@
   line-height: 150%;
   color: var(--white-2);
 }
+.social-icon-footer {
+  cursor: pointer;
+  fill: var(--white-2);
+}
+.social-icon-footer:hover,
+.social-icon-footer:focus {
+  fill: var(--red-main);
+}

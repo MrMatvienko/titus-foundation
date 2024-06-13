@@ -680,6 +680,21 @@
   color: var(--black-text);
   margin-bottom: 16px;
 }
+.social-team {
+  cursor: pointer;
+  --color1: var(--black);
+  fill: var(--color1);
+  transition: 200ms;
+}
+.social-team:hover,
+.social-team:focus {
+  --color1: var(--red-main);
+  fill: var(--color1);
+}
+
+.social-team path {
+  stroke: var(--color1);
+}
 
 /* -------------------ABOUT-SECTION-------------------- */
 .about-section {
@@ -948,4 +963,20 @@
   font-size: 12px;
   line-height: 150%;
   color: var(--white-2);
+}
+.social-icon-footer {
+  cursor: pointer;
+  --color1: var(--white-2);
+  fill: var(--color1);
+  transition: 200ms;
+}
+
+.social-icon-footer:hover,
+.social-icon-footer:focus {
+  --color1: var(--red-main);
+  fill: var(--color1);
+}
+
+.social-icon-footer path {
+  stroke: var(--color1);
 }

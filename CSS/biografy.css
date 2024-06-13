@@ -321,9 +321,18 @@
 }
 .social-icon-footer {
   cursor: pointer;
-  fill: var(--white-2);
+  --color1: var(--white-2);
+  fill: var(--color1);
+  transition: 200ms;
 }
+
 .social-icon-footer:hover,
 .social-icon-footer:focus {
-  fill: var(--red-main);
+  --color1: var(--red-main);
+  fill: var(--color1);
+}
+
+.social-icon-footer path {
+  stroke: var(--color1);
+  transition: 900ms;
 }

@@ -684,12 +684,14 @@
   cursor: pointer;
   --color1: var(--black);
   fill: var(--color1);
-  transition: 200ms;
+  transition: fill 300ms, stroke 300ms, transform 300ms;
+  transform-origin: center;
 }
 .social-team:hover,
 .social-team:focus {
   --color1: var(--red-main);
   fill: var(--color1);
+  transform: scale(1.2);
 }
 
 .social-team path {
@@ -968,13 +970,15 @@
   cursor: pointer;
   --color1: var(--white-2);
   fill: var(--color1);
-  transition: 200ms;
+  transition: fill 300ms, stroke 500ms, transform 300ms;
+  transform-origin: center;
 }
 
 .social-icon-footer:hover,
 .social-icon-footer:focus {
   --color1: var(--red-main);
   fill: var(--color1);
+  transform: scale(1.2);
 }
 
 .social-icon-footer path {

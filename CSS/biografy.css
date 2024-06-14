@@ -1,6 +1,7 @@
 .container {
+  margin: 0 auto;
   padding-left: 100px;
-  padding-right: 124px;
+  padding-right: 137px;
 }
 .red-line {
   width: 180px;
@@ -196,6 +197,44 @@
   width: 486px;
   height: 494px;
   margin-top: 143px;
+}
+
+/*-------------------BIOGRAFY-PATRON-SECTION----------------*/
+.biografy-container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 220px;
+}
+.biografy-list-item {
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  gap: 169px;
+}
+.last-child-list {
+  width: 1203px;
+  display: flex;
+  align-items: unset;
+  gap: 107px;
+}
+.biografy-container-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--red-main);
+}
+.biografy-text-container {
+  width: 528px;
+}
+.biograf-text {
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 16px;
 }
 
 /* ----------------------FOOTER------------------------ */

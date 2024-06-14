@@ -305,6 +305,11 @@
   color: var(--white-1);
   background-color: var(--red-main);
   border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+.footer-button-form:hover {
+  transform: scale(1.2);
 }
 .footer-text {
   display: flex;
@@ -330,9 +335,9 @@
 .social-icon-footer:focus {
   --color1: var(--red-main);
   fill: var(--color1);
+  transform: scale(1.2);
 }
 
 .social-icon-footer path {
   stroke: var(--color1);
-  transition: 900ms;
 }

@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   padding-left: 100px;
-  padding-right: 137px;
+  padding-right: 100px;
 }
 .red-line {
   width: 180px;
@@ -158,13 +158,14 @@
 
 .our-patron {
   display: flex;
+  justify-content: center;
   gap: 96px;
   height: 100%;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .patron-info-wraper {
-  max-width: 579px;
+  max-width: 1184px;
 }
 .title-wraper {
   margin-bottom: 40px;
@@ -200,19 +201,26 @@
 }
 
 /*-------------------BIOGRAFY-PATRON-SECTION----------------*/
+
+.biografy-container {
+  display: flex;
+  justify-content: center;
+}
 .biografy-container-list {
+  max-width: 1203px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 220px;
 }
 .biografy-list-item {
-  width: 1150px;
+  width: 1203px;
   display: flex;
   align-items: center;
   gap: 169px;
 }
-.last-child-list {
-  width: 1203px;
+.second-child-list {
+  width: 1150px;
   display: flex;
   align-items: unset;
   gap: 107px;
@@ -237,6 +245,39 @@
   margin-bottom: 16px;
 }
 
+/*-------------------WHY-HIM-SECTION----------------*/
+.why-him-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+  margin-bottom: 132px;
+  padding-top: 96px;
+  padding-bottom: 124px;
+  background: var(--black-bg);
+}
+.why-him-wrapper {
+  display: flex;
+  gap: 175px;
+}
+.why-him-text-container {
+  width: 528px;
+  margin-top: 26px;
+}
+.why-him-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--white-1);
+}
+.why-him-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white-1);
+  margin-bottom: 16px;
+}
 /* ----------------------FOOTER------------------------ */
 .footer {
   background-color: var(--black-bg);

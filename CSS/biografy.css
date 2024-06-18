@@ -223,6 +223,9 @@
   width: 1150px;
   display: flex;
   align-items: unset;
+  gap: 172px;
+}
+.biografy-list-item:last-child {
   gap: 107px;
 }
 .biografy-container-title {

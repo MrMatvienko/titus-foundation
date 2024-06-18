@@ -952,6 +952,11 @@
   color: var(--white-1);
   background-color: var(--red-main);
   border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+.footer-button-form:hover {
+  transform: scale(1.2);
 }
 .footer-text {
   display: flex;

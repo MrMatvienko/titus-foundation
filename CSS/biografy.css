@@ -234,6 +234,13 @@
   font-size: 22px;
   text-transform: uppercase;
   color: var(--red-main);
+  margin-bottom: 24px;
+}
+.text-crypt {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--black);
 }
 .biografy-text-container {
   width: 528px;

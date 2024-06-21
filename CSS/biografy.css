@@ -203,6 +203,7 @@
 /*-------------------BIOGRAFY-PATRON-SECTION----------------*/
 
 .biografy-container {
+  padding-top: 70px;
   display: flex;
   justify-content: center;
 }
@@ -254,7 +255,80 @@
   color: #000;
   margin-bottom: 16px;
 }
+/*-------------------LINE-CLICKER-----------------*/
+.line-clicker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 70px 124px;
+}
+.wraper-clicker {
+  width: 1192px;
+  height: 48px;
+}
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.line {
+  width: 270px;
+  height: 1px;
+  background-color: var(--black);
+}
+.part-clicker {
+  position: absolute;
+  top: 62px;
+  left: 434px;
 
+  margin: 0 auto;
+  width: 804px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+}
+.marker-wraper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.marker-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 294px;
+}
+
+.marker-line-clicker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--grey);
+}
+.marker-text-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 135px;
+}
+.marker-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black);
+}
+.marker-text:first-child {
+  width: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*-------------------WHY-HIM-SECTION----------------*/
 .why-him-section {
   display: flex;
